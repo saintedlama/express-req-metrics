@@ -28,6 +28,7 @@
     "chai": "^2.3.0",
     "express": "^4.12.3",
     "istanbul": "^0.3.13",
+    "mocha": "^2.2.4",
     "supertest": "^0.15.0"
   },
   "dependencies": {
