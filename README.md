@@ -38,6 +38,8 @@ Metrics provided by `express-req-metrics`
 }
 ```
 
+route is set to route.path only if a route handler processed the request
+
 ## Using express-req-metrics together with bunyan
 
 ```javascript
