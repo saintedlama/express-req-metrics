@@ -1,7 +1,10 @@
 var auth = require('basic-auth');
 var onFinished = require('on-finished');
 
-module.exports = function(fn) {
+module.exports = middleware;
+module.exports.getRequestMetrics = getRequestMetrics;
+
+function middleware(fn) {
   if (!fn) {
     throw new Error('Callback function to process request metrics is required');
   }
@@ -21,7 +24,7 @@ module.exports = function(fn) {
 
     next();
   };
-};
+}
 
 function getRequestMetrics(req, res) {
   return {
