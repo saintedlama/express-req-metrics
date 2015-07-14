@@ -13,9 +13,9 @@ var requestMetrics = require('express-req-metrics');
 
 var app = express();
 
-express.use(requestMetrics(function(req, res, metrics) {
+app.use(requestMetrics(function(req, res, metrics) {
   console.log(metrics);
-});
+}));
 ```
 
 ## Metrics
