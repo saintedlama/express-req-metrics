@@ -25,11 +25,11 @@
   },
   "homepage": "https://github.com/saintedlama/express-req-metrics",
   "devDependencies": {
-    "chai": "^2.3.0",
+    "chai": "^3.5.0",
     "express": "^4.12.3",
-    "istanbul": "^0.3.13",
+    "istanbul": "^0.4.3",
     "mocha": "^2.2.4",
-    "supertest": "^0.15.0"
+    "supertest": "^1.2.0"
   },
   "dependencies": {
     "basic-auth": "^1.0.1",
