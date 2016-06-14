@@ -1,4 +1,7 @@
 # express-req-metrics
+[![Build Status](https://travis-ci.org/saintedlama/express-req-metrics.svg?branch=master)](https://travis-ci.org/saintedlama/express-req-metrics)
+[![Coverage Status](https://coveralls.io/repos/github/saintedlama/express-req-metrics/badge.svg?branch=master)](https://coveralls.io/github/saintedlama/express-req-metrics?branch=master)
+
 Express middleware to collect request metrics and pass request metrics to a processing function.
 
 ## Installation
