@@ -26,9 +26,12 @@
   "homepage": "https://github.com/saintedlama/express-req-metrics",
   "devDependencies": {
     "chai": "^3.5.0",
+    "coveralls": "^2.11.9",
+    "cross-env": "^1.0.8",
     "express": "^4.12.3",
     "istanbul": "^0.4.3",
     "mocha": "^2.2.4",
+    "mocha-lcov-reporter": "^1.2.0",
     "supertest": "^1.2.0"
   },
   "dependencies": {
